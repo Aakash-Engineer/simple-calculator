@@ -1,0 +1,56 @@
+<!-- Creatting a simple calculator app -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/index.css" type="text/css">
+        
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <h1>Simple calculator</h1>
+            <table>
+                <tr>
+                    <td colspan="4" id="output_cell"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td data-number="7">7</td>
+                    <td data-number="8">8</td>
+                    <td data-number="9">9</td>
+                    <td data-operation="/">/</td>
+                </tr>
+
+                <tr>
+                    <td data-number="6">6</td>
+                    <td data-number="5">5</td>
+                    <td data-number="4">4</td>
+                    <td data-operation="*">*</td>
+                </tr>
+
+                <tr>
+                    <td data-number="3">3</td>
+                    <td data-number="2">2</td>
+                    <td data-number="1">1</td>
+                    <td data-operation="+">+</td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" data-number="0">0</td>
+                    <td data-operation=".">.</td> 
+                    <td data-operation="-">-</td>
+                </tr>
+
+                <tr>
+                    <td colspan="4" data-submit="=">=</td>
+            
+                </tr>
+            </table>
+        </div>
+        <script src="scripts\main.js"></script>
+    </body>
+</html>
